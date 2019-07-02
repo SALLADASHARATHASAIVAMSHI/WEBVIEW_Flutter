@@ -1,0 +1,52 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --device-id=517d2903 lib\main.dart
+
+## exception
+
+SocketException: SocketException: Write failed (OS Error: The pipe is being closed.
+, errno = 232), port = 0
+
+```
+null```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel dev, v1.7.11, on Microsoft Windows [Version 10.0.18362.207], locale en-US)
+    • Flutter version 1.7.11 at C:\flutter_windows_v1.7.11-dev\flutter
+    • Framework revision 43b03127d4 (4 days ago), 2019-06-26 23:27:39 -0400
+    • Engine revision f3761ba8d0
+    • Dart version 2.4.0
+
+[!] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at C:/Users/Sai Vamshi/AppData/Local/Android/sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-28, build-tools 28.0.3
+    • ANDROID_HOME = C:/Users/Sai Vamshi/AppData/Local/Android/sdk
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b02)
+    ! Some Android licenses not accepted.  To resolve this, run: flutter doctor --android-licenses
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[✗] Visual Studio - develop for Windows
+    ✗ Visual Studio not installed; this is necessary for Windows development.
+      Download at https://visualstudio.microsoft.com/downloads/.
+
+[✓] Android Studio (version 3.1)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 26.0.1
+    • Dart plugin version 173.4700
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b02)
+
+[✓] Connected device (3 available)
+    • ONEPLUS A6010 • 517d2903 • android-arm64  • Android 9 (API 28)
+    • Windows       • Windows  • windows-x64    • Microsoft Windows [Version 10.0.18362.207]
+    • Chrome        • chrome   • web-javascript • Google Chrome 73.0.3683.103
+
+! Doctor found issues in 2 categories.
+```
